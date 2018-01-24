@@ -51,7 +51,7 @@
 				<h1 class="site-name"><a href="/" title="一棵树">一棵树</a></h1>
 				<h2 class="blog-motto"></h2>
 			</div>
-			<div class="navbar"><a class="navbutton navmobile" href="#" title="Menu">
+			<div class="navbar"><a class="navbutton navmobile" href="#" title="菜单">
 			</a></div>
 			<nav class="animated">
 				<ul>
@@ -67,7 +67,7 @@
  					
 					<form class="search" action="//google.com/search" method="get" accept-charset="utf-8">
 						<label>Search</label>
-						<input type="search" id="search" name="q" autocomplete="off" maxlength="20" placeholder="Search" />
+						<input type="search" id="search" name="q" autocomplete="off" maxlength="20" placeholder="搜索" />
 						<input type="hidden" name="q" value="site:yoursite.com">
 					</form>
 					
@@ -90,14 +90,14 @@
 		<a href="/about" title="园春" target="_blank" itemprop="author">园春</a>
 		
   <p class="article-time">
-    <time datetime="2017-12-06T10:12:45.505Z" itemprop="datePublished"> Published 2017-12-06</time>
+    <time datetime="2017-12-06T10:12:45.505Z" itemprop="datePublished"> 发表于 2017-12-06</time>
     
   </p>
 </header>
 	<div class="article-content">
 		
 		<div id="toc" class="toc-article">
-			<strong class="toc-title">Contents</strong>
+			<strong class="toc-title">文章目录</strong>
 		
 			<ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#PHP第一天总结"><span class="toc-number">1.</span> <span class="toc-text"><a href="#PHP&#x7B2C;&#x4E00;&#x5929;&#x603B;&#x7ED3;" class="headerlink" title="PHP&#x7B2C;&#x4E00;&#x5929;&#x603B;&#x7ED3;"></a>PHP&#x7B2C;&#x4E00;&#x5929;&#x603B;&#x7ED3;</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#1、完整web网站"><span class="toc-number">1.0.1.</span> <span class="toc-text"><a href="#1&#x3001;&#x5B8C;&#x6574;web&#x7F51;&#x7AD9;" class="headerlink" title="1&#x3001;&#x5B8C;&#x6574;web&#x7F51;&#x7AD9;"></a>1&#x3001;&#x5B8C;&#x6574;web&#x7F51;&#x7AD9;</span></a><ol class="toc-child"><li class="toc-item toc-level-6"><a class="toc-link" href="#上面的图片就是说的服务器与客户端的关系，服务器是安装特定软件的计算机，主要提供服务的，然而客户端是使用服务的；"><span class="toc-number">1.0.1.0.0.1.</span> <span class="toc-text"><a href="#&#x4E0A;&#x9762;&#x7684;&#x56FE;&#x7247;&#x5C31;&#x662F;&#x8BF4;&#x7684;&#x670D;&#x52A1;&#x5668;&#x4E0E;&#x5BA2;&#x6237;&#x7AEF;&#x7684;&#x5173;&#x7CFB;&#xFF0C;&#x670D;&#x52A1;&#x5668;&#x662F;&#x5B89;&#x88C5;&#x7279;&#x5B9A;&#x8F6F;&#x4EF6;&#x7684;&#x8BA1;&#x7B97;&#x673A;&#xFF0C;&#x4E3B;&#x8981;&#x63D0;&#x4F9B;&#x670D;&#x52A1;&#x7684;&#xFF0C;&#x7136;&#x800C;&#x5BA2;&#x6237;&#x7AEF;&#x662F;&#x4F7F;&#x7528;&#x670D;&#x52A1;&#x7684;&#xFF1B;" class="headerlink" title="&#x4E0A;&#x9762;&#x7684;&#x56FE;&#x7247;&#x5C31;&#x662F;&#x8BF4;&#x7684;&#x670D;&#x52A1;&#x5668;&#x4E0E;&#x5BA2;&#x6237;&#x7AEF;&#x7684;&#x5173;&#x7CFB;&#xFF0C;&#x670D;&#x52A1;&#x5668;&#x662F;&#x5B89;&#x88C5;&#x7279;&#x5B9A;&#x8F6F;&#x4EF6;&#x7684;&#x8BA1;&#x7B97;&#x673A;&#xFF0C;&#x4E3B;&#x8981;&#x63D0;&#x4F9B;&#x670D;&#x52A1;&#x7684;&#xFF0C;&#x7136;&#x800C;&#x5BA2;&#x6237;&#x7AEF;&#x662F;&#x4F7F;&#x7528;&#x670D;&#x52A1;&#x7684;&#xFF1B;"></a>&#x4E0A;&#x9762;&#x7684;&#x56FE;&#x7247;&#x5C31;&#x662F;&#x8BF4;&#x7684;&#x670D;&#x52A1;&#x5668;&#x4E0E;&#x5BA2;&#x6237;&#x7AEF;&#x7684;&#x5173;&#x7CFB;&#xFF0C;&#x670D;&#x52A1;&#x5668;&#x662F;&#x5B89;&#x88C5;&#x7279;&#x5B9A;&#x8F6F;&#x4EF6;&#x7684;&#x8BA1;&#x7B97;&#x673A;&#xFF0C;&#x4E3B;&#x8981;&#x63D0;&#x4F9B;&#x670D;&#x52A1;&#x7684;&#xFF0C;&#x7136;&#x800C;&#x5BA2;&#x6237;&#x7AEF;&#x662F;&#x4F7F;&#x7528;&#x670D;&#x52A1;&#x7684;&#xFF1B;</span></a></li></ol></li></ol></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#常见的web服务器软件"><span class="toc-number">1.1.</span> <span class="toc-text"><a href="#&#x5E38;&#x89C1;&#x7684;web&#x670D;&#x52A1;&#x5668;&#x8F6F;&#x4EF6;" class="headerlink" title="&#x5E38;&#x89C1;&#x7684;web&#x670D;&#x52A1;&#x5668;&#x8F6F;&#x4EF6;"></a>&#x5E38;&#x89C1;&#x7684;web&#x670D;&#x52A1;&#x5668;&#x8F6F;&#x4EF6;</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#安装步骤："><span class="toc-number">1.1.1.</span> <span class="toc-text"><a href="#&#x5B89;&#x88C5;&#x6B65;&#x9AA4;&#xFF1A;" class="headerlink" title="&#x5B89;&#x88C5;&#x6B65;&#x9AA4;&#xFF1A;"></a>&#x5B89;&#x88C5;&#x6B65;&#x9AA4;&#xFF1A;</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#IP-地址"><span class="toc-number">1.1.2.</span> <span class="toc-text"><a href="#IP-&#x5730;&#x5740;" class="headerlink" title="IP &#x5730;&#x5740;"></a>IP &#x5730;&#x5740;</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#请求响应流程"><span class="toc-number">1.2.</span> <span class="toc-text"><a href="#&#x8BF7;&#x6C42;&#x54CD;&#x5E94;&#x6D41;&#x7A0B;" class="headerlink" title="&#x8BF7;&#x6C42;&#x54CD;&#x5E94;&#x6D41;&#x7A0B;"></a>&#x8BF7;&#x6C42;&#x54CD;&#x5E94;&#x6D41;&#x7A0B;</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#"><span class="toc-number">1.2.1.</span> <span class="toc-text"><a href="#" class="headerlink" title=" "></a> </span></a></li></ol></li></ol></li></ol>
 		
@@ -197,17 +197,17 @@
 
 
 </div>  
-      <div class="openaside"><a class="navbutton" href="#" title="Show Sidebar"></a></div>
+      <div class="openaside"><a class="navbutton" href="#" title="显示侧边栏"></a></div>
 
   <div id="toc" class="toc-aside">
-  <strong class="toc-title">Contents</strong>
+  <strong class="toc-title">文章目录</strong>
  
  <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#PHP第一天总结"><span class="toc-number">1.</span> <span class="toc-text"><a href="#PHP&#x7B2C;&#x4E00;&#x5929;&#x603B;&#x7ED3;" class="headerlink" title="PHP&#x7B2C;&#x4E00;&#x5929;&#x603B;&#x7ED3;"></a>PHP&#x7B2C;&#x4E00;&#x5929;&#x603B;&#x7ED3;</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#1、完整web网站"><span class="toc-number">1.0.1.</span> <span class="toc-text"><a href="#1&#x3001;&#x5B8C;&#x6574;web&#x7F51;&#x7AD9;" class="headerlink" title="1&#x3001;&#x5B8C;&#x6574;web&#x7F51;&#x7AD9;"></a>1&#x3001;&#x5B8C;&#x6574;web&#x7F51;&#x7AD9;</span></a><ol class="toc-child"><li class="toc-item toc-level-6"><a class="toc-link" href="#上面的图片就是说的服务器与客户端的关系，服务器是安装特定软件的计算机，主要提供服务的，然而客户端是使用服务的；"><span class="toc-number">1.0.1.0.0.1.</span> <span class="toc-text"><a href="#&#x4E0A;&#x9762;&#x7684;&#x56FE;&#x7247;&#x5C31;&#x662F;&#x8BF4;&#x7684;&#x670D;&#x52A1;&#x5668;&#x4E0E;&#x5BA2;&#x6237;&#x7AEF;&#x7684;&#x5173;&#x7CFB;&#xFF0C;&#x670D;&#x52A1;&#x5668;&#x662F;&#x5B89;&#x88C5;&#x7279;&#x5B9A;&#x8F6F;&#x4EF6;&#x7684;&#x8BA1;&#x7B97;&#x673A;&#xFF0C;&#x4E3B;&#x8981;&#x63D0;&#x4F9B;&#x670D;&#x52A1;&#x7684;&#xFF0C;&#x7136;&#x800C;&#x5BA2;&#x6237;&#x7AEF;&#x662F;&#x4F7F;&#x7528;&#x670D;&#x52A1;&#x7684;&#xFF1B;" class="headerlink" title="&#x4E0A;&#x9762;&#x7684;&#x56FE;&#x7247;&#x5C31;&#x662F;&#x8BF4;&#x7684;&#x670D;&#x52A1;&#x5668;&#x4E0E;&#x5BA2;&#x6237;&#x7AEF;&#x7684;&#x5173;&#x7CFB;&#xFF0C;&#x670D;&#x52A1;&#x5668;&#x662F;&#x5B89;&#x88C5;&#x7279;&#x5B9A;&#x8F6F;&#x4EF6;&#x7684;&#x8BA1;&#x7B97;&#x673A;&#xFF0C;&#x4E3B;&#x8981;&#x63D0;&#x4F9B;&#x670D;&#x52A1;&#x7684;&#xFF0C;&#x7136;&#x800C;&#x5BA2;&#x6237;&#x7AEF;&#x662F;&#x4F7F;&#x7528;&#x670D;&#x52A1;&#x7684;&#xFF1B;"></a>&#x4E0A;&#x9762;&#x7684;&#x56FE;&#x7247;&#x5C31;&#x662F;&#x8BF4;&#x7684;&#x670D;&#x52A1;&#x5668;&#x4E0E;&#x5BA2;&#x6237;&#x7AEF;&#x7684;&#x5173;&#x7CFB;&#xFF0C;&#x670D;&#x52A1;&#x5668;&#x662F;&#x5B89;&#x88C5;&#x7279;&#x5B9A;&#x8F6F;&#x4EF6;&#x7684;&#x8BA1;&#x7B97;&#x673A;&#xFF0C;&#x4E3B;&#x8981;&#x63D0;&#x4F9B;&#x670D;&#x52A1;&#x7684;&#xFF0C;&#x7136;&#x800C;&#x5BA2;&#x6237;&#x7AEF;&#x662F;&#x4F7F;&#x7528;&#x670D;&#x52A1;&#x7684;&#xFF1B;</span></a></li></ol></li></ol></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#常见的web服务器软件"><span class="toc-number">1.1.</span> <span class="toc-text"><a href="#&#x5E38;&#x89C1;&#x7684;web&#x670D;&#x52A1;&#x5668;&#x8F6F;&#x4EF6;" class="headerlink" title="&#x5E38;&#x89C1;&#x7684;web&#x670D;&#x52A1;&#x5668;&#x8F6F;&#x4EF6;"></a>&#x5E38;&#x89C1;&#x7684;web&#x670D;&#x52A1;&#x5668;&#x8F6F;&#x4EF6;</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#安装步骤："><span class="toc-number">1.1.1.</span> <span class="toc-text"><a href="#&#x5B89;&#x88C5;&#x6B65;&#x9AA4;&#xFF1A;" class="headerlink" title="&#x5B89;&#x88C5;&#x6B65;&#x9AA4;&#xFF1A;"></a>&#x5B89;&#x88C5;&#x6B65;&#x9AA4;&#xFF1A;</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#IP-地址"><span class="toc-number">1.1.2.</span> <span class="toc-text"><a href="#IP-&#x5730;&#x5740;" class="headerlink" title="IP &#x5730;&#x5740;"></a>IP &#x5730;&#x5740;</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#请求响应流程"><span class="toc-number">1.2.</span> <span class="toc-text"><a href="#&#x8BF7;&#x6C42;&#x54CD;&#x5E94;&#x6D41;&#x7A0B;" class="headerlink" title="&#x8BF7;&#x6C42;&#x54CD;&#x5E94;&#x6D41;&#x7A0B;"></a>&#x8BF7;&#x6C42;&#x54CD;&#x5E94;&#x6D41;&#x7A0B;</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#"><span class="toc-number">1.2.1.</span> <span class="toc-text"><a href="#" class="headerlink" title=" "></a> </span></a></li></ol></li></ol></li></ol>
  
   </div>
 
 <div id="asidepart">
-<div class="closeaside"><a class="closebutton" href="#" title="Hide Sidebar"></a></div>
+<div class="closeaside"><a class="closebutton" href="#" title="隐藏侧边栏"></a></div>
 <aside class="clearfix">
 
   
@@ -218,7 +218,7 @@
   
 
   <div class="linkslist">
-  <p class="asidetitle">Links</p>
+  <p class="asidetitle">友情链接</p>
     <ul>
         
           <li>
@@ -240,11 +240,11 @@
 
 
   <div class="rsspart">
-	<a href="/atom.xml" target="_blank" title="rss">RSS</a>
+	<a href="/atom.xml" target="_blank" title="rss">RSS 订阅</a>
 </div>
 
   <div class="weiboshow">
-  <p class="asidetitle">Weibo</p>
+  <p class="asidetitle">新浪微博</p>
     <iframe width="100%" height="119" class="share_self"  frameborder="0" scrolling="no" src="http://widget.weibo.com/weiboshow/index.php?language=&width=0&height=119&fansRow=2&ptype=1&speed=0&skin=9&isTitle=1&noborder=1&isWeibo=0&isFans=0&uid=&verifier=b3593ceb&dpc=1"></iframe>
 </div>
 
@@ -473,7 +473,7 @@ var _hmt = _hmt || [];
 <!-- Totop Begin -->
 
 	<div id="totop">
-	<a title="Back to Top"><img src="/img/scrollup.png"/></a>
+	<a title="返回顶部"><img src="/img/scrollup.png"/></a>
 	</div>
 	<script src="/js/totop.js"></script>
 
